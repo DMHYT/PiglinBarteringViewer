@@ -1,0 +1,54 @@
+{
+    "global": {
+        "info": {
+            "name": "Piglin Bartering Viewer",
+            "author": "dsdekhm",
+            "version": "1.0",
+            "description": "Addon for Recipe Viewer mod to see everything that Piglin will give you when you hand them a gold ingot.",
+            "clientside": true,
+            "icon": "src/icon.png"
+        },
+        "api": "CoreEngine"
+    },
+    "make": {
+        "debugAbi": "armeabi-v7a",
+        "abis": [
+            "armeabi-v7a",
+            "x86"
+        ],
+        "linkNative": [
+            "minecraftpe",
+            "innercore",
+            "nativejs"
+        ],
+        "excludeFromRelease": [],
+        "pushTo": "storage/emulated/0/games/horizon/packs/Inner_Core_1/innercore/mods/PiglinBarteringViewer",
+        "ndkPath": null
+    },
+    "resources": [
+        {
+            "path": "src/assets/gui",
+            "type": "gui"
+        }
+    ],
+    "sources": [
+        {
+            "source": "src/dev",
+            "target": "main.js",
+            "type": "main",
+            "language": "typescript"
+        },
+        {
+            "source": "src/launcher.js",
+            "type": "launcher",
+            "language": "javascript"
+        }
+    ],
+    "compile": [],
+    "additional": [
+        {
+            "source": "src/assets/root/*",
+            "targetDir": "."
+        }
+    ]
+}
