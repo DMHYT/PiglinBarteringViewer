@@ -1,0 +1,52 @@
+{
+    "drawing": [
+        {
+            "type": "bitmap",
+            "bitmap": "pbv.gui",
+            "x": 115,
+            "y": 174
+        }
+    ],
+    "elements": {
+        "input0": {
+            "type": "slot",
+            "x": 178,
+            "y": 232,
+            "bitmap": "_default_slot_empty",
+            "isTransparentBackground": true,
+            "size": 94
+        },
+        "output0": {
+            "type": "slot",
+            "x": 673,
+            "y": 232,
+            "bitmap": "_default_slot_empty",
+            "isTransparentBackground": true,
+            "size": 94
+        },
+        "textAmount": {
+            "type": "text",
+            "x": 720,
+            "y": 326,
+            "width": 114,
+            "height": 40,
+            "font": {
+                "alignment": 1,
+                "color": -16777216,
+                "size": 40
+            }
+        },
+        "textChance": {
+            "type": "text",
+            "x": 720,
+            "y": 138,
+            "width": 150,
+            "height": 40,
+            "font": {
+                "alignment": 1,
+                "color": -16777216,
+                "size": 40
+            }
+        }
+    }
+}
