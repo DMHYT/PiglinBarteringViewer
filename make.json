@@ -2,8 +2,8 @@
     "global": {
         "info": {
             "name": "Piglin Bartering Viewer",
-            "author": "dsdekhm",
-            "version": "1.0",
+            "author": "visualstudiodan",
+            "version": "1.1",
             "description": "Addon for Recipe Viewer mod to see everything that Piglin will give you when you hand them a gold ingot.",
             "clientside": true,
             "icon": "src/icon.png"
@@ -22,7 +22,7 @@
             "nativejs"
         ],
         "excludeFromRelease": [],
-        "pushTo": "storage/emulated/0/games/horizon/packs/Inner_Core_1/innercore/mods/PiglinBarteringViewer",
+        "pushTo": "storage/emulated/0/games/horizon/packs/Inner_Core_Test/innercore/mods/PiglinBarteringViewer",
         "ndkPath": null
     },
     "resources": [
